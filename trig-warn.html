@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- rediret to home page if needed -->
+    <script>
+        // check if the client has visited this website
+        localStorage.getItem("visited") ? window.location.href = "index.html" : undefined;
+    </script>
+    <!-- ------------------------------ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom is Costful</title>
+    <link rel="stylesheet" href="trig-warn.css">
+    <script src="trig-warn.js" defer></script>
+</head>
+<body>
+    <div id="trig-warn-container">
+        <div id="warning-sign-back">
+            <div id="warning-sign">
+                <div id="excl">!</div>
+            </div>
+        </div>
+        <div id="warning-msg-container">
+            <div id="warning-msg">
+                <p><b>Content Warning:</b> This page contains information and discussions about sensitive topics, including 
+                    the history of Palestine and ongoing events that may be distressing to some readers. We approach this 
+                    subject with the utmost respect for those affected, and we advise discretion when proceeding. If you 
+                    find such content distressing, please consider seeking support or utilizing the provided resources. 
+                    Our intention is to inform and create awareness while maintaining a respectful and empathetic approach.</p>
+            </div>
+            <div id="btns">
+                <button id="tw-cancel">CANCEL</button>
+                <button id="tw-accept">ACCEPT</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
