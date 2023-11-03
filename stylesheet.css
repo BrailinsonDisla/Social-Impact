@@ -31,7 +31,7 @@ h1{
     margin: 0 0 0 1em;
 }
 
-h1, h3 {
+h1, h3, h2 {
     font-family: 'Signika';
     font-size: 2em;
     margin: 1em 0 0 1em;
@@ -82,6 +82,27 @@ h1, h3 {
     /* flex:none; */
     max-width: 50%;
     margin: 0em 2em;
+}
+
+#resources {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+#resources > #videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#resources > #videos > iframe {
+    flex: none;
+    width: 50%;
+    height: 10em;
+    margin: 1%;
 }
 
 @media (max-width: 117.85em) {
