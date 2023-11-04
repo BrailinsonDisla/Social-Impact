@@ -13,13 +13,32 @@
     <!-- link the icon for the website -->
     <link rel="icon" type="image/png" href="images/icons/palestine.png">
     <!-- link google fonts for the website -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika|Roboto+Condensed|GT+America+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika|Roboto+Condensed|GT+America+Mono|Cedarville+Cursive">
+    <!-- load script for post load funtionality -->
+    <script src="postload.js" defer></script>
 </head>
 <body>
-    <div id="navbar">
-        NAVBAR
+    <div class="header-container">
+        <img src="images/freedom.png" alt="Freedom Symbol" id="header-img">
+        <div class="header-item">
+            <h1>Liberation</h1>
+        </div>
+        <div id="header-right">
+            <h1>Freedom</h1>
+        </div>
+        <button id="header-button">Join Us</button>
     </div>
-    <div id="intro">
+
+    <div id="navbar">
+        <button id="purpose-statement-b">Purpose Statement</button>
+        <button id="history-b">History</button>
+        <button id="resources-b">Resoures</button>
+        <button id="news-b">News</button>
+        <button id="contact-us-b">Contact Us</button>
+        <button id="theme-mode">Toogle Dark Mode</button>
+    </div>
+
+    <div id="purpose-statement">
         <h1>Pupose Statement & Mission</h1>
         <p id="purpose-statement-p">
             At the core of our mission lies an unwavering commitment to elucidating the enduring ramifications of the Israeli government's
@@ -44,23 +63,23 @@
         <div id="scrollable-history">
             <ul>
                 <li><span class="event-year">1885</span>The term “Zionism” first coined by the Viennese writer, Nathan Birnbaum.</li>
-                <li><span class="event-year">1896:</span>Theodor Herzl, founder of the Zionist movement, calls for “restoration of the Jewish State.”</li>
-                <li><span class="event-year">1897:</span>First Zionist congress takes place in Basel, Switzerland and the first Zionist organization is founded.</li>
-                <li><span class="event-year">1907:</span>Zionist leader Chaim Weizmann visits Palestine.</li>
-                <li><span class="event-year">1908:</span>First Palestinian anti-Zionist weekly newspaper is published by Arab Christian Najib Nassar.</li>
-                <li><span class="event-year">1915:</span>British cabinet member Herbert Samuel calls for the British annexation of Palestine in memorandum “The Future of Palestine.”</li>
-                <li><span class="event-year">1916:</span>European Powers conclude secret Sykes-Picot agreement dividing future spheres of influence in Ottoman Empire territories.</li>
-                <li><span class="event-year">1917:</span>The Balfour Declaration promises a “national home for the Jewish people in Palestine.”</li>
-                <li><span class="event-year">1919:</span>Emir Feisal presents a memorandum to the Paris Peace Conference, outlining the case for independence of Arab countries.</li>
-                <li><span class="event-year">1922:</span>The League of Nations grants mandate over former Ottoman territory Palestine to UK. Provisions include terms of the Balfour Declaration, including a “Jewish national home.”</li>
-                <li><span class="event-year">1933:</span>Palestinians riot amid a sudden rise in Jewish immigration from Nazi persecution in Germany.</li>
-                <li><span class="event-year">1936-1939:</span>Palestinian rebellion against the British Mandate and Jewish immigration.</li>
-                <li><span class="event-year">1937:</span>UK Peel Commission Report publicly recognizes conflict’s irreconcilable terms and recommends the partition of Palestine.</li>
-                <li><span class="event-year">1939:</span>UK issues White Paper limiting Jewish immigration.</li>
-                <li><span class="event-year">1942:</span>US Zionists meet in NY and adopt the “Biltmore Programme“, calling for the establishment of Palestine as a Jewish Commonwealth and for unlimited immigration.</li>
-                <li><span class="event-year">1947:</span>In February, the UK proposes to relinquish its mandatory role and places the question of Palestine before the UN.</li>
-                <li><span class="event-year">1947:</span>In September, the UN Special Committee on Palestine (UNSCOP) issues a report to the General Assembly with plans for partition or a federal state in Palestine.</li>
-                <li><span class="event-year">1947:</span>In November, the UN General Assembly adopts resolution 181(II) which called to divide Palestine into an un-named “Jewish State” and an un-named “Arab State” with Jerusalem under UN trusteeship.</li>
+                <li><span class="event-year">1896</span>Theodor Herzl, founder of the Zionist movement, calls for “restoration of the Jewish State.”</li>
+                <li><span class="event-year">1897</span>First Zionist congress takes place in Basel, Switzerland and the first Zionist organization is founded.</li>
+                <li><span class="event-year">1907</span>Zionist leader Chaim Weizmann visits Palestine.</li>
+                <li><span class="event-year">1908</span>First Palestinian anti-Zionist weekly newspaper is published by Arab Christian Najib Nassar.</li>
+                <li><span class="event-year">1915</span>British cabinet member Herbert Samuel calls for the British annexation of Palestine in memorandum “The Future of Palestine.”</li>
+                <li><span class="event-year">1916</span>European Powers conclude secret Sykes-Picot agreement dividing future spheres of influence in Ottoman Empire territories.</li>
+                <li><span class="event-year">1917</span>The Balfour Declaration promises a “national home for the Jewish people in Palestine.”</li>
+                <li><span class="event-year">1919</span>Emir Feisal presents a memorandum to the Paris Peace Conference, outlining the case for independence of Arab countries.</li>
+                <li><span class="event-year">1922</span>The League of Nations grants mandate over former Ottoman territory Palestine to UK. Provisions include terms of the Balfour Declaration, including a “Jewish national home.”</li>
+                <li><span class="event-year">1933</span>Palestinians riot amid a sudden rise in Jewish immigration from Nazi persecution in Germany.</li>
+                <li><span class="event-year">1936-1939</span>Palestinian rebellion against the British Mandate and Jewish immigration.</li>
+                <li><span class="event-year">1937</span>UK Peel Commission Report publicly recognizes conflict’s irreconcilable terms and recommends the partition of Palestine.</li>
+                <li><span class="event-year">1939</span>UK issues White Paper limiting Jewish immigration.</li>
+                <li><span class="event-year">1942</span>US Zionists meet in NY and adopt the “Biltmore Programme“, calling for the establishment of Palestine as a Jewish Commonwealth and for unlimited immigration.</li>
+                <li><span class="event-year">1947</span>In February, the UK proposes to relinquish its mandatory role and places the question of Palestine before the UN.</li>
+                <li><span class="event-year">1947</span>In September, the UN Special Committee on Palestine (UNSCOP) issues a report to the General Assembly with plans for partition or a federal state in Palestine.</li>
+                <li><span class="event-year">1947</span>In November, the UN General Assembly adopts resolution 181(II) which called to divide Palestine into an un-named “Jewish State” and an un-named “Arab State” with Jerusalem under UN trusteeship.</li>
                 <li><span class="event-year">APRIL 1948: Deir Yassin massacre: Zionist paramilitary groups kill hundreds of Palestinian Arabs in Deir Yassin, a village near Jerusalem.</li>
                 <li><span class="event-year">MAY 1948: Great Britain terminates the Mandate over Palestine, and Israel declares independence on 15 May. Territorial expansion using force results in the first large-scale exodus of Palestinian refugees; 15 May becomes an official day to mark the Palestinian Nakba (“catastrophe”).</li>
                 <li><span class="event-year">Count Folke Bernadotte appointed UN Mediator in Palestine by the UN General Assembly. He is assassinated four months later by a Zionist militant group.</li>
@@ -131,19 +150,80 @@
 
     <div id="resources">
         <h3>Resources</h3>
-        <div id="videoos">
-            <h2>Videos</h2>
-            <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/9cU8B7FXX6g?si=Ki6YQOMGJ21TFa0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div id="books">
-            <h2>Books</h2>
-            <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/9cU8B7FXX6g?si=Ki6YQOMGJ21TFa0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="resources-h">
+            <div id="videos">
+                <h2>Videos</h2>
+                <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/9cU8B7FXX6g?si=Ki6YQOMGJ21TFa0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div id="books">
+                <h2>Books</h2>
+                <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/9cU8B7FXX6g?si=Ki6YQOMGJ21TFa0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 
+    <div id="news">
+        <h3>News</h3>
+        <div id="outlets">
+            <a href="https://www.aljazeera.com/tag/gaza/">Al Jazeera News - Gaza</a>
+            <a href="https://apnews.com/hub/gaza-strip">AP News - Gaza</a>
+            <a href="https://www.palestinechronicle.com/">Palestine Chronicles</a>
+            <a href="https://www.independent.co.uk/topic/gaza">The Independent - Gaza</a>
+            <a href="https://news.un.org/en/tags/gaza">UN News - Gaza</a>
+        </div>
+    </div>
+
+    <div class="petition" id="petition">
+        <h2>Sign Our Petition 📢</h2>
+        <div class="petition-container">
+            <div class="petition-para">
+                We, the undersigned, call upon the global community to take a united stand against the prolonged occupation of Palestine and the ongoing
+                suffering that has plagued this region for generations. This petition is a heartfelt plea for your support, as we believe that together,
+                we can make a difference and bring about a peaceful resolution to this enduring conflict.
+                <br><br>
+                The situation in Palestine is a humanitarian crisis that has caused immeasurable pain and loss for both Israelis and, mostly, Palestinians.
+                It is a moral imperative that we advocate for peace, justice, and a brighter future for all people living in this troubled region.
+                <br><br>
+                We strongly believe in the power of dialogue, diplomacy, and negotiations as a means to find a just and equitable solution that respects 
+                the rights and dignity of all individuals, regardless of their background. The long-standing conflict has taken a heavy toll on the lives 
+                of countless innocent civilians. It is time to seek a path towards coexistence, reconciliation, and the cessation of violence and oppression.
+                <br><br>
+                As we collect signatures for this petition, we are fostering a collective voice that demands an end to the suffering endured by those living 
+                in this conflict zone. By signing, you join a worldwide movement committed to bringing an end to this tragic chapter in history and paving the
+                way for a story of hope, unity, and peaceful cohabitation.
+                <br><br>
+                In signing this petition, you become an advocate for a peaceful resolution to the Israeli-Palestinian conflict. We invite you to stand with us
+                in solidarity and urge global leaders to prioritize a peaceful and just solution to end the occupation in Palestine. By uniting our voices, we
+                can create a powerful call to action, bringing an end to the ongoing suffering and striving for a brighter future for all affected by this
+                longstanding conflict. Together, we can make a lasting difference. Sign this petition and be a part of the change for peace.
+            </div>
+
+            <div class="signatures">
+                <p>Brailinson Disla</p>
+            </div>
+    </div>
+    <form id="sign-petition" title="sign-petition">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+
+        <label for="country">Country of Origin:</label>
+        <input type="text" id="country" name="country"><br><br>
+        <p></p>
+    </form>
+    <button id="sign-now-button">Sign Now</button>
+
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <div id="contact-us">
+            <a href="mailto:bdisla@ccny.cuny.edu"><h2>Email Us</h2></a>
+        </div>
+    </div>
 </body>
 </html>
