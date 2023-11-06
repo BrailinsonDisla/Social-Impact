@@ -9,7 +9,7 @@ const contactUsButton = document.getElementById('contact-us-section-button');
 const themeButton = document.getElementById('theme-mode');
 
 // set functionalities for the navbar buttons
-intoButton.addEventListener('click', () => {
+introButton.addEventListener('click', () => {
     window.location.href = '#intro-section';
 });
 
