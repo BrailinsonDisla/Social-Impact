@@ -1,5 +1,5 @@
 // get buttons from the navbar
-const intoButton = document.getElementById('intro-section-button');
+const introButton = document.getElementById('intro-section-button');
 const historyButton = document.getElementById('history-section-button');
 const resourcesButton = document.getElementById('resources-section-button');
 const newsButton = document.getElementById('news-section-button');
