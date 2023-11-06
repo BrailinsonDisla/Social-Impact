@@ -9,17 +9,17 @@ html, body {
     margin: 0;
 }
 
-#trig-warn-container {
+#trigger-warning-container {
     width: 100vw;
     height: 100vh;
-    background-color:rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:rgba(0, 0, 0, 0.75);
 }
 
-#warning-sign-back {
+#warning-sign-background {
     width: 0;
     height: 0;
     margin: 5em;
@@ -28,10 +28,9 @@ html, body {
     border-right: 15em solid transparent; 
     border-bottom: 35em solid rgba(255, 0, 0, 1);
     animation: 0.75s ease-in forwards emphasize;
-
 }
 
-#warning-sign {
+#warning-sign-foreground {
     width: 0;
     height: 0;
     position: absolute;
@@ -42,7 +41,7 @@ html, body {
     border-bottom: 31.5em solid rgb(218, 155, 9);
 }
 
-#excl {
+#warning-sign-exclamation {
     position: absolute;
     top: 0.17em;
     left: -0.17em;
@@ -58,7 +57,7 @@ html, body {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: 2s fadein 0.75s forwards;
+    animation: 2.5s fadein 0.75s forwards;
 }
 
 #warning-msg {
@@ -70,14 +69,13 @@ html, body {
     text-align: justify;
     font-size: 1.05em;
     color : white;
-
 }
 
 #warning-msg > p {
     margin: 1em;
 }
 
-#btns {
+#buttons {
     width: 10%;
     height: 90%;
     display: flex;
@@ -91,18 +89,18 @@ button {
     border-radius: 2em 0 2em 0 / 2em 0 2em 0;
 }
 
-#tw-cancel {
+#cancel-button {
     background-color:limegreen;
 }
 
-#tw-accept {
+#accept-button {
     background-color: tomato;
 }
 
 @keyframes emphasize {
     0% {
         translate: -100vw -100vh;
-        scale: 0.2;
+        scale: 0;
         rotate: 720deg;
     } 100% {
         scale: 1;

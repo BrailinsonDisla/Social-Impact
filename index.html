@@ -13,39 +13,41 @@
     <!-- link the icon for the website -->
     <link rel="icon" type="image/png" href="images/icons/palestine.png">
     <!-- link google fonts for the website -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika|Roboto+Condensed|GT+America+Mono|Cedarville+Cursive">
-    <!-- load script for post load funtionality -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika|Roboto+Condensed|Cedarville+Cursive">
+    <!-- load script for post load funtionalities -->GT+America+Mono
     <script src="postload.js" defer></script>
 </head>
 <body>
     <div class="header-container">
-        <img src="images/freedom.png" alt="Freedom Symbol" id="header-img">
+        <img src="images/freedom.png" alt="Hands with Broken Chains" id="header-img">
         <div class="header-item">
             <h1>Liberation</h1>
         </div>
-        <div id="header-right">
+        <div class="header-item">
             <h1>Freedom</h1>
         </div>
         <button id="header-button">Join Us</button>
     </div>
 
     <div id="navbar">
-        <button id="purpose-statement-b">Purpose Statement</button>
-        <button id="history-b">History</button>
-        <button id="resources-b">Resoures</button>
-        <button id="news-b">News</button>
-        <button id="contact-us-b">Contact Us</button>
+        <button id="intro-section-button">Purpose Statement</button>
+        <button id="history-section-button">History</button>
+        <button id="resources-section-button">Resoures</button>
+        <button id="news-section-button">News</button>
+        <button id="contact-us-section-button">Contact Us</button>
         <button id="theme-mode">Toogle Dark Mode</button>
     </div>
 
-    <div id="purpose-statement">
+    <div id="intro-section">
         <h1>Pupose Statement & Mission</h1>
-        <p id="purpose-statement-p">
+        <p id="purpose-statement">
             At the core of our mission lies an unwavering commitment to elucidating the enduring ramifications of the Israeli government's
             actions upon Palestinians since the pivotal year of 1948. We are deeply devoted to shedding light on the profound experiences
             of Palestinians embroiled in this protracted conflict. Our principal focus centers on disentangling the political dimensions
             of Zionism, with a discerning eye towards its reverberations on the lives of Palestinians, distinct from its religious underpinnings.
-            <br><br>
+            <br><br>            actions upon Palestinians since the pivotal year of 1948. We are deeply devoted to shedding light on the profound experiences
+            of Palestinians embroiled in this protracted conflict. Our principal focus centers on disentangling the political dimensions
+
             With a nuanced approach, enriched by historical context and authentic personal narratives, our objective is to nurture enlightenment
             and compassion. We aspire to curate a space that is both enlightening and empathetic, where individuals can delve into the intricate
             landscape of the Israeli-Palestinian conflict, partake in erudite discourse, and advocate for peaceful, equitable solutions.
@@ -58,7 +60,7 @@
         <img src="images/isr-over-pal-land.jpg" alt="Israel On Palestinian Land Cartoon" id="isr-over-pal-land">
     </div>
 
-    <div id="history">
+    <div id="history-section">
         <h3>Throughout History</h3>
         <div id="scrollable-history">
             <ul>
@@ -148,16 +150,16 @@
         </div>
     </div>
 
-    <div id="resources">
+    <div id="resources-section">
         <h3>Resources</h3>
-        <div id="resources-h">
-            <div id="videos">
+        <div id="resources-shelf">
+            <div id="resources-videos">
                 <h2>Videos</h2>
                 <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe src="https://www.youtube.com/embed/9cU8B7FXX6g?si=Ki6YQOMGJ21TFa0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div id="books">
+            <div id="resources-books">
                 <h2>Books</h2>
                 <iframe src="https://www.youtube.com/embed/1wo2TLlMhiw?si=VvGaBCTruMCBj6q7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU?si=8Ch_pgyPj-tkvJoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -166,9 +168,9 @@
         </div>
     </div>
 
-    <div id="news">
+    <div id="news-section">
         <h3>News</h3>
-        <div id="outlets">
+        <div id="news-outlets">
             <a href="https://www.aljazeera.com/tag/gaza/">Al Jazeera News - Gaza</a>
             <a href="https://apnews.com/hub/gaza-strip">AP News - Gaza</a>
             <a href="https://www.palestinechronicle.com/">Palestine Chronicles</a>
@@ -180,7 +182,7 @@
     <div class="petition" id="petition">
         <h2>Sign Our Petition 📢</h2>
         <div class="petition-container">
-            <div class="petition-para">
+            <div class="petition-paragraph">
                 We, the undersigned, call upon the global community to take a united stand against the prolonged occupation of Palestine and the ongoing
                 suffering that has plagued this region for generations. This petition is a heartfelt plea for your support, as we believe that together,
                 we can make a difference and bring about a peaceful resolution to this enduring conflict.
@@ -202,26 +204,28 @@
                 longstanding conflict. Together, we can make a lasting difference. Sign this petition and be a part of the change for peace.
             </div>
 
-            <div class="signatures">
-                <p>Brailinson Disla</p>
+            <div class="petition-signatures">
+                <h4>Signed by <span id="signatures-count">1</span></h4>
+                <p>Signed by Brailinson Disla from Dominican Republic</p>
             </div>
     </div>
-    <form id="sign-petition" title="sign-petition">
-        <label for="first_name">First Name:</label>
-        <input type="text" id="first_name" name="first_name"><br><br>
 
-        <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name"><br><br>
+    <form id="sign-petition" title="sign-petition">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name"><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name"><br><br>
 
         <label for="country">Country of Origin:</label>
         <input type="text" id="country" name="country"><br><br>
-        <p></p>
+        
+        <button type="submit" id="sign-now-button">Sign Now</button>
     </form>
-    <button id="sign-now-button">Sign Now</button>
 
     <div class="footer">
         <h3>Contact Us</h3>
-        <div id="contact-us">
+        <div id="contact-us-section">
             <a href="mailto:bdisla@ccny.cuny.edu"><h2>Email Us</h2></a>
         </div>
     </div>
