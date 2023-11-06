@@ -32,6 +32,10 @@ contactUsButton.addEventListener('click', () => {
 // function to switch from and to dark mode
 const toogleDarkMode = () => {
     document.body.classList.toggle("dark-mode");
+
+    document.getElementById('scrollable-history').querySelectorAll('li').forEach(element => {
+        element.style.color = 'black';
+    });
 }
 
 // set functionality for theme button

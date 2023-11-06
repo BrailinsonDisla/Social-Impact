@@ -271,9 +271,9 @@ a:visited {
 
 .dark-mode {
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.75;
     z-index: 9999;
-    color: whitesmoke
+    color: white;
 }
 
 @media (max-width: 117.85em) {
