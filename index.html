@@ -26,21 +26,21 @@
         <div class="header-item">
             <h1>Freedom</h1>
         </div>
-        <button id="header-button">Join Us</button>
+        <button id="reduce-motion-button">Reduce Motion</button>
     </div>
 
     <div id="navbar">
-        <button id="intro-section-button">Purpose Statement</button>
-        <button id="history-section-button">History</button>
-        <button id="resources-section-button">Resoures</button>
-        <button id="news-section-button">News</button>
-        <button id="contact-us-section-button">Contact Us</button>
-        <button id="theme-mode">Toogle Dark Mode</button>
+        <button class="navbar-button" id="intro-section-button">Purpose Statement</button>
+        <button class="navbar-button" id="history-section-button">History</button>
+        <button class="navbar-button" id="resources-section-button">Resoures</button>
+        <button class="navbar-button" id="news-section-button">News</button>
+        <button class="navbar-button" id="contact-us-section-button">Contact Us</button>
+        <button class="navbar-button" id="theme-mode">Toogle Dark Mode</button>
     </div>
 
-    <div id="intro-section">
-        <h1>Pupose Statement & Mission</h1>
-        <p id="purpose-statement">
+    <div id="intro-section" class="intro-section">
+        <h1>Purpose Statement & Mission</h1>
+        <p id="purpose-statement" class="purpose-statement">
             At the core of our mission lies an unwavering commitment to elucidating the enduring ramifications of the Israeli government's
             actions upon Palestinians since the pivotal year of 1948. We are deeply devoted to shedding light on the profound experiences
             of Palestinians embroiled in this protracted conflict. Our principal focus centers on disentangling the political dimensions
@@ -60,9 +60,9 @@
         <img src="images/isr-over-pal-land.jpg" alt="Israel On Palestinian Land Cartoon" id="isr-over-pal-land">
     </div>
 
-    <div id="history-section">
+    <div id="history-section" class="history-section revealable">
         <h3>Throughout History</h3>
-        <div id="scrollable-history">
+        <div id="scrollable-history" class="scrollable-history">
             <ul>
                 <li><span class="event-year">1885</span>The term “Zionism” first coined by the Viennese writer, Nathan Birnbaum.</li>
                 <li><span class="event-year">1896</span>Theodor Herzl, founder of the Zionist movement, calls for “restoration of the Jewish State.”</li>
@@ -75,82 +75,81 @@
                 <li><span class="event-year">1919</span>Emir Feisal presents a memorandum to the Paris Peace Conference, outlining the case for independence of Arab countries.</li>
                 <li><span class="event-year">1922</span>The League of Nations grants mandate over former Ottoman territory Palestine to UK. Provisions include terms of the Balfour Declaration, including a “Jewish national home.”</li>
                 <li><span class="event-year">1933</span>Palestinians riot amid a sudden rise in Jewish immigration from Nazi persecution in Germany.</li>
-                <li><span class="event-year">1936-1939</span>Palestinian rebellion against the British Mandate and Jewish immigration.</li>
+                <li><span class="event-year">1936-39</span>Palestinian rebellion against the British Mandate and Jewish immigration.</li>
                 <li><span class="event-year">1937</span>UK Peel Commission Report publicly recognizes conflict’s irreconcilable terms and recommends the partition of Palestine.</li>
                 <li><span class="event-year">1939</span>UK issues White Paper limiting Jewish immigration.</li>
                 <li><span class="event-year">1942</span>US Zionists meet in NY and adopt the “Biltmore Programme“, calling for the establishment of Palestine as a Jewish Commonwealth and for unlimited immigration.</li>
                 <li><span class="event-year">1947</span>In February, the UK proposes to relinquish its mandatory role and places the question of Palestine before the UN.</li>
                 <li><span class="event-year">1947</span>In September, the UN Special Committee on Palestine (UNSCOP) issues a report to the General Assembly with plans for partition or a federal state in Palestine.</li>
                 <li><span class="event-year">1947</span>In November, the UN General Assembly adopts resolution 181(II) which called to divide Palestine into an un-named “Jewish State” and an un-named “Arab State” with Jerusalem under UN trusteeship.</li>
-                <li><span class="event-year">APRIL 1948: Deir Yassin massacre: Zionist paramilitary groups kill hundreds of Palestinian Arabs in Deir Yassin, a village near Jerusalem.</li>
-                <li><span class="event-year">MAY 1948: Great Britain terminates the Mandate over Palestine, and Israel declares independence on 15 May. Territorial expansion using force results in the first large-scale exodus of Palestinian refugees; 15 May becomes an official day to mark the Palestinian Nakba (“catastrophe”).</li>
+                <li><span class="event-year">APRIL 1948</span>: Deir Yassin massacre: Zionist paramilitary groups kill hundreds of Palestinian Arabs in Deir Yassin, a village near Jerusalem.</li>
+                <li><span class="event-year">MAY 1948</span> Great Britain terminates the Mandate over Palestine, and Israel declares independence on 15 May. Territorial expansion using force results in the first large-scale exodus of Palestinian refugees; 15 May becomes an official day to mark the Palestinian Nakba (“catastrophe”).</li>
                 <li><span class="event-year">Count Folke Bernadotte appointed UN Mediator in Palestine by the UN General Assembly. He is assassinated four months later by a Zionist militant group.</li>
                 <li><span class="event-year">Security Council establishes a group of military observers to supervise truce, which later became UNTSO.</li>
-                <li><span class="event-year">NOVEMBER 1948: UN establishes UNRPR special fund to provide relief to over 500,000 Palestine refugees.</li>
-                <li><span class="event-year">DECEMBER 1948: UN General Assembly passes resolution 194 calling for refugees to be allowed to return, Jerusalem to be under international regime, UN Conciliation Commission for Palestine (UNCCP) replaces UN mediator.</li>
-                <li><span class="event-year">FEBRUARY-JULY 1949: Israel signs armistice agreements with Egypt, Jordan, Lebanon, and Syria.</li>
-                <li><span class="event-year">APRIL 1949: UN Conciliation Commission convenes Lausanne Conference to reconcile the parties.</li>
-                <li><span class="event-year">MAY 1949: UNGA adopts Resolution 273 (III) admitting Israel as UN member.</li>
-                <li><span class="event-year">DECEMBER 1949: UN establishes UNRWA to replace UNRPR (GA Resolution 302 (IV)).</li>
-                <li><span class="event-year">1950: Israel moves its capital from Tel Aviv to the western part of Jerusalem, in defiance of UN resolutions, and the West Bank is brought formally under Jordanian control.</li>
-                <li><span class="event-year">1964: Palestine Liberation Organization (PLO) is founded in Cairo.</li>
-                <li><span class="event-year">1967: Six-day war: Israel occupies the West Bank, including East Jerusalem, Gaza, Golan Heights, and Sinai Peninsula.</li>
+                <li><span class="event-year">NOVEMBER 1948</span> UN establishes UNRPR special fund to provide relief to over 500,000 Palestine refugees.</li>
+                <li><span class="event-year">DECEMBER 1948</span> UN General Assembly passes resolution 194 calling for refugees to be allowed to return, Jerusalem to be under international regime, UN Conciliation Commission for Palestine (UNCCP) replaces UN mediator.</li>
+                <li><span class="event-year">FEBRUARY-JULY 1949</span> Israel signs armistice agreements with Egypt, Jordan, Lebanon, and Syria.</li>
+                <li><span class="event-year">APRIL 1949</span> UN Conciliation Commission convenes Lausanne Conference to reconcile the parties.</li>
+                <li><span class="event-year">MAY 1949</span> UNGA adopts Resolution 273 (III) admitting Israel as UN member.</li>
+                <li><span class="event-year">DECEMBER 1949</span> UN establishes UNRWA to replace UNRPR (GA Resolution 302 (IV)).</li>
+                <li><span class="event-year">1950</span> Israel moves its capital from Tel Aviv to the western part of Jerusalem, in defiance of UN resolutions, and the West Bank is brought formally under Jordanian control.</li>
+                <li><span class="event-year">1964</span> Palestine Liberation Organization (PLO) is founded in Cairo.</li>
+                <li><span class="event-year">1967</span> Six-day war: Israel occupies the West Bank, including East Jerusalem, Gaza, Golan Heights, and Sinai Peninsula.</li>
                 <li><span class="event-year">In November, the UN Security Council unanimously adopts Resolution 242 (Land for peace).</li>
-                <li><span class="event-year">1968: Establishment of UN Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories.</li>
-                <li><span class="event-year">1973: Following the Middle East war of October, the UN Security Council passes resolution 338 calling for a ceasefire, implementation of res. 242, negotiations between parties.</li>
-                <li><span class="event-year">1974: The UN General Assembly and the Arab League recognize the PLO as the sole legitimate representative of the Palestinian people.</li>
+                <li><span class="event-year">1968</span> Establishment of UN Special Committee to Investigate Israeli Practices Affecting the Human Rights of the Palestinian People and Other Arabs of the Occupied Territories.</li>
+                <li><span class="event-year">1973</span> Following the Middle East war of October, the UN Security Council passes resolution 338 calling for a ceasefire, implementation of res. 242, negotiations between parties.</li>
+                <li><span class="event-year">1974</span> The UN General Assembly and the Arab League recognize the PLO as the sole legitimate representative of the Palestinian people.</li>
                 <li><span class="event-year">General Assembly reaffirms the inalienable rights of the Palestinian people to self-determination, independence, and sovereignty, and refugee return (resolution 3236).</li>
-                <li><span class="event-year">1975: In 1975 the Committee on the Exercise of the Inalienable Rights of the Palestinian People (CEIRPP) is founded by Resolution 3376 of the UNGA.</li>
-                <li><span class="event-year">1976: The CEIRPP submits its program to the Security Council and General Assembly to enable Palestinians to exercise their inalienable rights.</li>
-                <li><span class="event-year">1977: Pursuant to UNGA Resolution 32/40 B, International Day of Solidarity with the Palestinian People is celebrated annually on 29 November.</li>
-                <li><span class="event-year">1978: Following two weeks of secret negotiations at Camp David (USA), the Egyptian President and the Israeli Prime Minister agree on a Framework for Peace in the Middle East.</li>
-                <li><span class="event-year">1979: The UNGA re-designates the Special Unit on Palestinian Rights as the Division for Palestinian Rights (Resolution 34/65 D).</li>
-                <li><span class="event-year">1980: Israeli Knesset enacts the so-called ‘Basic Law’ on Jerusalem, proclaiming that “Jerusalem, whole and united” is the capital of Israel; the Security Council and GA resolution 35/169 E censure this law.</li>
-                <li><span class="event-year">1981: UNESCO adds the Old City of Jerusalem to the UNESCO World Heritage Site list.</li>
+                <li><span class="event-year">1975</span> In 1975 the Committee on the Exercise of the Inalienable Rights of the Palestinian People (CEIRPP) is founded by Resolution 3376 of the UNGA.</li>
+                <li><span class="event-year">1976</span> The CEIRPP submits its program to the Security Council and General Assembly to enable Palestinians to exercise their inalienable rights.</li>
+                <li><span class="event-year">1977</span> Pursuant to UNGA Resolution 32/40 B, International Day of Solidarity with the Palestinian People is celebrated annually on 29 November.</li>
+                <li><span class="event-year">1978</span> Following two weeks of secret negotiations at Camp David (USA), the Egyptian President and the Israeli Prime Minister agree on a Framework for Peace in the Middle East.</li>
+                <li><span class="event-year">1979</span> The UNGA re-designates the Special Unit on Palestinian Rights as the Division for Palestinian Rights (Resolution 34/65 D).</li>
+                <li><span class="event-year">1980</span> Israeli Knesset enacts the so-called ‘Basic Law’ on Jerusalem, proclaiming that “Jerusalem, whole and united” is the capital of Israel; the Security Council and GA resolution 35/169 E censure this law.</li>
+                <li><span class="event-year">1981</span> UNESCO adds the Old City of Jerusalem to the UNESCO World Heritage Site list.</li>
                 <li><span class="event-year">UN Security Council adopts resolution 497, calling on Israel to rescind action to annex the Golan Heights.</li>
-                <li><span class="event-year">1982: Israel invades Lebanon with the intention of eliminating the PLO. After a ceasefire, PLO forces withdraw to neighboring countries. Despite guarantees of safety for Palestine refugees left behind, there are massacres at Sabra and Shatila camps.</li>
-                <li><span class="event-year">1987: First “Intifada” begins in the Jabaliya Refugee Camp in the Gaza Strip.</li>
-                <li><span class="event-year">1988: In July, Jordan renounces claims to the West Bank and recognizes PLO as “the sole legitimate representative of the Palestinian people.”</li>
+                <li><span class="event-year">1982</span> Israel invades Lebanon with the intention of eliminating the PLO. After a ceasefire, PLO forces withdraw to neighboring countries. Despite guarantees of safety for Palestine refugees left behind, there are massacres at Sabra and Shatila camps.</li>
+                <li><span class="event-year">1987</span> First “Intifada” begins in the Jabaliya Refugee Camp in the Gaza Strip.</li>
+                <li><span class="event-year">1988</span> In July, Jordan renounces claims to the West Bank and recognizes PLO as “the sole legitimate representative of the Palestinian people.”</li>
                 <li><span class="event-year">In November, in Algiers, the Palestinian National Council adopts the declaration of independence of the State of Palestine.</li>
                 <li><span class="event-year">In December, PLO Chair Yasser Arafat addresses the UN in Geneva; says Palestine National Council accepts UNSC Resolutions 242 and 338.</li>
-                <li><span class="event-year">1991: Middle East peace conference in Madrid brings together all the parties to the Arab-Israeli conflict.</li>
-                <li><span class="event-year">1993: Israel and the PLO sign the Declaration of Principles on Interim Self-Government Arrangements, also known as the Oslo accords. Several “permanent status” issues are deferred for future negotiations.</li>
-                <li><span class="event-year">1994: The Office of the UN Special Coordinator in the Occupied Territories (UNSCO) is established, and Mr. Terje Roed-Larsen of Norway is appointed as the first UN Special Coordinator.</li>
-                <li><span class="event-year">1995: Israel and the PLO sign the Palestinian-Israeli Interim Agreement on the West Bank and the Gaza Strip (“Oslo II)”. </li>
-                <li><span class="event-year">1996: Palestinian general elections are held.</li>
-                <li><span class="event-year">1997: Israel and the PLO sign the Hebron Protocol.</li>
-                <li><span class="event-year">1998: Israel and the PLO sign the Wye River Memorandum, which consists of steps to facilitate the implementation of previous agreements.</li>
-                <li><span class="event-year">2000: In July, the US President Clinton convenes a Middle East Peace Summit at Camp David, which concludes without agreement.</li>
+                <li><span class="event-year">1991</span> Middle East peace conference in Madrid brings together all the parties to the Arab-Israeli conflict.</li>
+                <li><span class="event-year">1993</span> Israel and the PLO sign the Declaration of Principles on Interim Self-Government Arrangements, also known as the Oslo accords. Several “permanent status” issues are deferred for future negotiations.</li>
+                <li><span class="event-year">1994</span> The Office of the UN Special Coordinator in the Occupied Territories (UNSCO) is established, and Mr. Terje Roed-Larsen of Norway is appointed as the first UN Special Coordinator.</li>
+                <li><span class="event-year">1995</span> Israel and the PLO sign the Palestinian-Israeli Interim Agreement on the West Bank and the Gaza Strip (“Oslo II)”. </li>
+                <li><span class="event-year">1996</span> Palestinian general elections are held.</li>
+                <li><span class="event-year">1997</span> Israel and the PLO sign the Hebron Protocol.</li>
+                <li><span class="event-year">1998</span> Israel and the PLO sign the Wye River Memorandum, which consists of steps to facilitate the implementation of previous agreements.</li>
+                <li><span class="event-year">2000</span> In July, the US President Clinton convenes a Middle East Peace Summit at Camp David, which concludes without agreement.</li>
                 <li><span class="event-year">Ariel Sharon’s al-Haram al-Sharif visit in September 2000 triggers the Second Palestinian Intifada.</li>
-                <li><span class="event-year">2001: Outgoing US President Clinton proposes the Clinton Parameters for a permanent status agreement to resolve the Israeli–Palestinian conflict.</li>
+                <li><span class="event-year">2001</span> Outgoing US President Clinton proposes the Clinton Parameters for a permanent status agreement to resolve the Israeli–Palestinian conflict.</li>
                 <li><span class="event-year">Shortly afterward, the Taba Summit is held between Israel and the Palestinian Authority but fails to resolve the “permanent status” issues.</li>
-                <li><span class="event-year">2002: The UN Security Council passes resolution 1397 affirming the vision of a two-State solution to the conflict. The Quartet, consisting of the UN, the EU, the US, and Russia is established with a mandate to help mediate the Israeli-Palestinian conflict and support Palestinian economic development and institution-building.</li>
+                <li><span class="event-year">2002</span> The UN Security Council passes resolution 1397 affirming the vision of a two-State solution to the conflict. The Quartet, consisting of the UN, the EU, the US, and Russia is established with a mandate to help mediate the Israeli-Palestinian conflict and support Palestinian economic development and institution-building.</li>
                 <li><span class="event-year">During a summit in Beirut, the League of Arab States adopts the Arab Peace Initiative.</li>
-                <li><span class="event-year">2003: Roadmap for Peace is published by the Quartet and is endorsed by the Security Council in resolution 1515.</li>
-                <li><span class="event-year">2004: The International Court of Justice (ICJ) issues an Advisory Opinion on the legality of the construction of a wall in the Occupied Palestinian Territory.</li>
-                <li><span class="event-year">2006: In January, Hamas wins Palestinian Legislative Elections; forms Palestinian Authority government. The Quartet responds with Quartet Principles.</li>
+                <li><span class="event-year">2003</span> Roadmap for Peace is published by the Quartet and is endorsed by the Security Council in resolution 1515.</li>
+                <li><span class="event-year">2004</span> The International Court of Justice (ICJ) issues an Advisory Opinion on the legality of the construction of a wall in the Occupied Palestinian Territory.</li>
+                <li><span class="event-year">2006</span> In January, Hamas wins Palestinian Legislative Elections; forms Palestinian Authority government. The Quartet responds with Quartet Principles.</li>
                 <li><span class="event-year">In July, Israel goes to war with Hezbollah in Lebanon.</li>
-                <li><span class="event-year">2007: Israel imposes a blockade on the Gaza Strip after an armed takeover of Gaza by Hamas.</li>
+                <li><span class="event-year">2007</span> Israel imposes a blockade on the Gaza Strip after an armed takeover of Gaza by Hamas.</li>
                 <li><span class="event-year">In November, the Annapolis Conference ends with parties issuing a joint statement committing to immediately implement their respective obligations under the Roadmap and working towards a peace treaty by the end of 2008.</li>
-                <li><span class="event-year">2008: Israel broadens its sanctions and completely seals off the Gaza Strip.</li>
+                <li><span class="event-year">2008</span> Israel broadens its sanctions and completely seals off the Gaza Strip.</li>
                 <li><span class="event-year">Later in the year, Israel launches “Operation Cast Lead”, a massive 22-day military assault on the Gaza Strip.</li>
-                <li><span class="event-year">2009: Security Council passes resolution 1860 calling for a ceasefire in Gaza. HRC creates the UN Fact Finding Mission on the Gaza conflict to investigate violations of international humanitarian and human rights law. Their findings are issued in the “Goldstone Report”. </li>
-                <li><span class="event-year">2012: In November, Israel launches ‘Pillar of Defense’, an 8-day military operation against the Gaza Strip.</li>
-                <li><span class="event-year">Later that month, the General Assembly adopts resolution 67/19 granting Palestine the status of a non-member observer State in the UN.</li>
-                <li><span class="event-year">2013: Direct negotiations between Israel and Palestine are held following an initiative by US Secretary of State John Kerry to restart the peace process.</li>
-                <li><span class="event-year">2014: Israel launches a large-scale military operation codenamed “Protective Edge” on the Gaza Strip.</li>
-                <li><span class="event-year">2016: UN Security Council adopts resolution 2334, stating that Israel’s settlement activity constitutes a “flagrant violation” of international law and has “no legal validity”. </li>
-                <li><span class="event-year">2017: US President Donald Trump announces that the United States would recognize Jerusalem as the capital of Israel.</li>
-                <li><span class="event-year">2018: United States moves its embassy in Israel from Tel Aviv to Jerusalem.</li>
-                <li><span class="event-year">2020: US President Trump helps mediate Abraham Accords to normalize Israel’s relations with some Arab States and proposes a Peace Plan.</li>
-                <li><span class="event-year">2022: General Assembly requests ICJ Advisory Opinion on the legal implications of the prolonged Israeli occupation.</li>
-                <li><span class="event-year">2022: General Assembly adopts resolution A/RES/77/23 of 30 November 2022 requesting the Committee to Commemorate the 75th anniversary of the Nakba for the first time in the history of the UN.</li>
-                <li><span class="event-year">2023: Israel launches “Operation Swords of Iron” against Gaza following a Hamas attack.</li>
+                <li><span class="event-year">2009</span> Security Council passes resolution 1860 calling for a ceasefire in Gaza. HRC creates the UN Fact Finding Mission on the Gaza conflict to investigate violations of international humanitarian and human rights law. Their findings are issued in the “Goldstone Report”. </li>
+                <li><span class="event-year">2012</span> In November, Israel launches ‘Pillar of Defense’, an 8-day military operation against the Gaza Strip.</li>
+                <li><span class="event-year">Later</span> that month, the General Assembly adopts resolution 67/19 granting Palestine the status of a non-member observer State in the UN.</li>
+                <li><span class="event-year">2013</span> Direct negotiations between Israel and Palestine are held following an initiative by US Secretary of State John Kerry to restart the peace process.</li>
+                <li><span class="event-year">2014</span> Israel launches a large-scale military operation codenamed “Protective Edge” on the Gaza Strip.</li>
+                <li><span class="event-year">2016</span> UN Security Council adopts resolution 2334, stating that Israel’s settlement activity constitutes a “flagrant violation” of international law and has “no legal validity”. </li>
+                <li><span class="event-year">2017</span> US President Donald Trump announces that the United States would recognize Jerusalem as the capital of Israel.</li>
+                <li><span class="event-year">2018</span> United States moves its embassy in Israel from Tel Aviv to Jerusalem.</li>
+                <li><span class="event-year">2020</span> US President Trump helps mediate Abraham Accords to normalize Israel’s relations with some Arab States and proposes a Peace Plan.</li>
+                <li><span class="event-year">2022</span> General Assembly requests ICJ Advisory Opinion on the legal implications of the prolonged Israeli occupation.</li>
+                <li><span class="event-year">2022</span> General Assembly adopts resolution A/RES/77/23 of 30 November 2022 requesting the Committee to Commemorate the 75th anniversary of the Nakba for the first time in the history of the UN.</li>
+                <li><span class="event-year">2023</span> Israel launches “Operation Swords of Iron” against Gaza following a Hamas attack.</li>
               </ul> 
         </div>
     </div>
-
-    <div id="resources-section">
+    <div id="resources-section" class="resources-section revealable">
         <h3>Resources</h3>
         <div id="resources-shelf">
             <div id="resources-videos">
@@ -168,9 +167,9 @@
         </div>
     </div>
 
-    <div id="news-section">
+    <div id="news-section" class="news-section revealable">
         <h3>News</h3>
-        <div id="news-outlets">
+        <div id="news-outlets" class="news-outlets">
             <a href="https://www.aljazeera.com/tag/gaza/">Al Jazeera News - Gaza</a>
             <a href="https://apnews.com/hub/gaza-strip">AP News - Gaza</a>
             <a href="https://www.palestinechronicle.com/">Palestine Chronicles</a>
@@ -179,7 +178,7 @@
         </div>
     </div>
 
-    <div class="petition" id="petition">
+    <div id="petition" class="petition revealable">
         <h2>Sign Our Petition 📢</h2>
         <div class="petition-container">
             <div class="petition-paragraph">
@@ -210,7 +209,7 @@
             </div>
     </div>
 
-    <form id="sign-petition" title="sign-petition">
+    <form id="sign-petition" class="sign-petition" title="sign-petition">
         <label for="first-name">First Name:</label>
         <input type="text" id="first-name" name="first-name"><br><br>
 
@@ -219,9 +218,20 @@
 
         <label for="country">Country of Origin:</label>
         <input type="text" id="country" name="country"><br><br>
-        
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
         <button type="submit" id="sign-now-button">Sign Now</button>
     </form>
+
+    <div id="petition-modal" class="modal">
+        <div class="modal-content">
+            <p id="thanks-modal-text-content">DEFAULT</p>
+            <img src="./images/freedom.png" id="modal-img" alt="">
+        </div>
+        <button id="close-modal-button">Close</button>
+    </div>
 
     <div class="footer">
         <h3>Contact Us</h3>
